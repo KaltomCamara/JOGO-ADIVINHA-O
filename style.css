@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.hide{
+    display: none;
+}
+
+body, button, input{
+    font-family: "DM sans", sans-serif;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+h1, p{
+    color: #34355B;
+}
+
+p{
+    font-weight: normal;
+    opacity: .8;
+}
+
+body{
+    background: linear-gradient(287.56deg, #c2e9fb 0%, #a1c4fd 100%);
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    height: 100vw;
+}
+
+button{
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 .4rem .4rem 0;
+    padding: 1.6rem;
+    background: #7879F1;
+
+}
+
+main{
+    margin-top: -12rem;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+    width: min-content(42.8rem, 90%);
+}
+
+input{
+    background: #DCE2E9;
+    border: none;
+    border-radius: .4rem 0 0 .4rem;
+    padding: 1.6rem;
+    width: 4.3rem;
+}
+
+form{
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*scrren2*/
+
